@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VitalTrack</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+<string-array name="ModeArray"> 
+        <item>Idle Mode</item>
+        <item>ECG Mode</item>
+        <item>SPO2 Mode</item>
+        <item>NIBP Mode</item>
+        <item>SPIRO Mode</item>
+  </string-array>
+<string-array name="SpiroArray">
+        <item>Start Readings</item>
+        <item>Get Values</item>
+        </string-array>
+
+</resources>

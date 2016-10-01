@@ -1,0 +1,2 @@
+include ':app', ':vtbtlib'
+project(':vtbtlib').projectDir = new File('extlibs/VtBtLibClone/app')

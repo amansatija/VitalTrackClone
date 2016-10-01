@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- vendor and product ID for Maestros PPVPM -->
+    <usb-device vendor-id="65535" product-id="47" />  
+    
+     <!-- vendor and product ID for Maestros APC -->
+    <usb-device vendor-id="1240" product-id="10" /> 
+    
+     <!-- vendor and product ID for Maestros Vital Track -->
+    <usb-device vendor-id="65535" product-id="6" />  
+   
+    
+</resources>

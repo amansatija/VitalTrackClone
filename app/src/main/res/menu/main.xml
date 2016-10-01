@@ -1,0 +1,95 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.metsl.vitaltrack.MainActivity" >
+     <item
+        android:id="@+id/connect"
+        android:icon="@drawable/connect"
+        android:showAsAction="always"
+        android:name="android:actionButtonStyle"
+        android:title="Connect">
+    </item>
+    <item
+        android:icon="@drawable/save"
+        android:showAsAction="always"
+        android:title="Save"
+        >
+ 
+    <menu>
+        <item
+        android:id="@+id/save"
+         android:showAsAction="always"
+        android:title="Save" ></item>
+    <item
+        android:id="@+id/saveall"
+        android:showAsAction="always"
+        android:title="Save All">
+    </item>
+    </menu>
+       </item>
+      <item
+        android:id="@+id/NIBP"
+        android:showAsAction="always"
+        android:title="NIBP"
+        
+        >
+      <menu>
+        <item
+        android:id="@+id/startNIBP"
+        android:showAsAction="always"
+        android:title="StartNIBP">
+    </item>
+    <item
+        android:id="@+id/stopNIBP"
+        android:showAsAction="always"
+        android:title="StopNIBP">
+    </item>
+       </menu>
+       </item>
+       <group android:checkableBehavior="single">
+         <item
+        android:id="@+id/Spiro"
+         android:showAsAction="always"
+        android:title="Spiro"
+        >
+        <menu>
+            
+            <item
+                android:id="@+id/starreading"
+                android:title="Start Reading" 
+                android:orderInCategory="1"
+        android:showAsAction="never"
+                android:visible="true"/>
+             <item
+                android:id="@+id/getvalues"
+                android:orderInCategory="2"
+        android:showAsAction="never"
+                android:title="Get Values"/>
+                       
+        </menu> 
+    </item>
+     </group>
+    <!-- Settings, should always be in the overflow -->
+   
+      <item
+                android:id="@+id/idlemode"
+                android:title="Idle Mode" 
+                android:visible="true"/>
+             <item
+                android:id="@+id/ecgmode"
+                android:title="ECG Mode"
+                android:icon="@drawable/mode"
+              />
+            <item
+                android:id="@+id/spo2mode"
+                android:title="SPO2 Mode"/>
+            <item
+                android:id="@+id/nibpmode"
+                android:title="NIBP Mode"
+               />
+            <item
+                android:id="@+id/spiromode"
+                android:title="SPIRO Mode"/>
+      
+  
+    </menu>
